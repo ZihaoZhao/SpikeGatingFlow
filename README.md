@@ -33,7 +33,7 @@ pip install opencv-contrib-python
 3. Preprocess the event data into npy files. (This may take a few hours and need ~70GB free space on disk)
    
 ```python
-cd ${your_path}/SGF_submmit
+cd ${your_path}/SpikeGatingFlow
 python process_dvs_gesture.py
 python dvsgesture_t.py
 ```
@@ -41,7 +41,7 @@ python dvsgesture_t.py
 ## Run
 
 ```python
-cd ${your_path}/SGF_submmit
+cd ${your_path}/SpikeGatingFlow
 python main.py --train_test --iter 36 --selected_events 2+8+9+10+1_3_4+5_6+7
 ```
 36 equals to training/test sample ratio 1.5:1.
